@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度一下，你就知道</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="short icon" href="favicon.ico">
+</head>
+<body>
+	<div class="bd">
+		<div class="logo"></div>
+		<input id="txt" type="text">
+		<input id="btn" onclick="baidu()" type="button" value="百度一下">
+	</div>
+	<script>
+	function baidu () {
+		var txt = document.getElementById('txt').value;
+		location.href="https://www.baidu.com/s?wd="+txt;
+	}
+	</script>
+</body>
+</html>

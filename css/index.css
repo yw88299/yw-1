@@ -1,0 +1,39 @@
+div,
+input {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+input {
+	outline: none;
+}
+.bd {
+	margin: 100px auto;
+	width: 600px;
+	height: 38px;
+}
+.bd .logo {
+	background: url(../image/logo.png);
+	width: 117px;
+	height: 100%;
+	float: left;
+}
+.bd #txt {
+	width: 383px;
+	height: 100%;
+	margin-left: 10px;
+	text-indent: 10px;
+	float: left;
+}
+.bd #btn {
+	width: 90px;
+	height: 100%;
+	color: #fff;
+	font-size: 16px;
+	background-color: blue;
+	border: 0;
+	float: right;
+}
+.bd #btn:hover {
+	cursor: pointer;
+}
